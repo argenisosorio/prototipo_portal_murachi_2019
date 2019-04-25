@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="static/img/favicon.png">
+  <title>Murachí - Portal de Firma y Verificación</title>
+  <!-- Bootstrap core CSS 
+  ================================================== -->
+  <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template 
+  ================================================== -->
+  <link href="static/css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- navbar cintillo de gobierno
+  ================================================== -->
+  <nav class="navbar navbar-default navbar-fixed-top mb-3 navbar-cintillo">
+  <div class="container">
+    <div align="center">
+      <img class="cintillo_up" src="static/img/cintillo_2019.png" width="100%"></img>
+    </div>
+  </div>
+  </nav>
+  <!-- navbar cintillo de gobierno end -->
+
+  <!-- container-fluid
+  ================================================== -->
+  <div class="container-fluid">
+
+    <!-- navbar
+    ================================================== -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Acerca de</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Instructivo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Equipo</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End navbar -->
+
+    <a href="#">
+      <img class="xxx" src="static/img/banner_principal.png" width="100%"></img>  
+    </a>
+
+    <!-- Navs
+    ================================================== -->
+    <div class="container">
+      <ul class="nav nav-tabs mt-4" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">Firmar Electrónicamente</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Verificar Firma Electrónica</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Versión de Murachí</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <!-- tab 1
+        ================================================== -->
+        <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="home-tab">
+          <h2 class="mt-4 mb-4">Firmar Electrónicamente</h2>
+          <p><b>Seleccione el método para firmar</b></p>
+          <form>
+            <label>
+              <input name="optionsRadios" id="optionsRadios1" value="option1" checked="" type="radio">
+              Con dispositivo criptográfico
+            </label>
+            <label>
+              <input name="optionsRadios" id="optionsRadios1" value="option2" checked="" type="radio">
+              Con certificado digital
+            </label>
+          </form>
+          <p class="mt-4"><b>Seleccione el tipo de formato que va a utilizar para firmar</b></p>
+          <label>
+            <input name="optionsRadios" id="optionsRadios1" value="option1" checked="" type="radio">
+            PDF
+          </label>
+          <label>
+            <input name="optionsRadios" id="optionsRadios1" value="option2" checked="" type="radio">
+            BDOC
+          </label>
+          <p class="mt-4"><b>Seleccione el el documento que desea verificar</b></p>
+          <p>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+          </p>
+          <button type="submit" class="btn btn-success mb-5">Enviar</button>
+        </div>
+        <!-- tab 1 end -->
+
+        <!-- Tab 2
+        ================================================== -->
+        <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="profile-tab">
+          <h2 class="mt-4 mb-4">Verificar Firma Electrónica</h2>
+          <p><b>Seleccione el el documento que desea verificar</b></p>
+          <p>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+          </p>
+          <button type="submit" class="btn btn-success mb-5">Enviar</button>
+        </div>
+        <!-- Tab 2 -->
+
+        <!-- Tab 3
+        ================================================== -->
+        <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="contact-tab">
+          <h2 class="mt-5">Versión de Murachí</h2>
+        </div>
+        <!-- Tab 3 -->
+
+      </div>
+    </div>
+    <!-- Navs end -->
+
+  </div>
+  <!-- container-fluid end -->
+</body>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<script src="static/jquery/jquery-3.2.1.slim.min.js"></script>
+<script src="static/jquery/popper.min.js"></script>
+<script src="static/bootstrap/js/bootstrap.min.js"></script>
+</html>

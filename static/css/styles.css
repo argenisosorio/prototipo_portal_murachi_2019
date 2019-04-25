@@ -1,0 +1,29 @@
+@font-face {
+  /*font-family: "OpenSans-Regular";  
+  src: url("../fonts/OpenSans-Regular.ttf");*/
+  font-family: "OpenSans-Light";
+  src: url("../fonts/OpenSans-Light.ttf");
+}
+body {
+  font-family: "OpenSans-Regular", sans-serif;
+}
+.navbar-cintillo {
+  background: #275a9b !important;
+  border-radius: 0px !important;
+  border: none;
+  -webkit-box-shadow: -1px 0px 3px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 0px 3px 0px rgba(0,0,0,0.75);
+  box-shadow: -1px 0px 3px 0px rgba(0,0,0,0.75);
+}
+.bg-light {
+  background: #FFFFFF !important;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #275a9b;
+}
+
+.xxx {
+  /*-webkit-box-shadow: -1px 0px 3px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 0px 3px 0px rgba(0,0,0,0.75);
+  box-shadow: -1px 0px 3px 0px rgba(0,0,0,0.75);*/
+}
